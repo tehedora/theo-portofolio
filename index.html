@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Aviation-inspired portfolio website showcasing Theo's skills, experiences, and projects." />
+    <meta name="keywords" content="portfolio, web development, aviation, HTML, CSS, JavaScript" />
+    <title>Portfolio | Theodorus Otniel W</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/assets/images/favicon-car.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header id="home">
+      <div class="header-container">
+        <nav class="fade-in">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="hero-text">
+              <h2 class="slide-up">Hi! Im Building Modern Web Experiences</h2>
+              <p class="slide-up">Creating seamless, visually captivating, and functional websites is what currently im learning.</p>
+            </div>
+          </div>
+          <!-- Carousel -->
+          <div class="col-md-6">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div style="height: 350px" class="d-flex justify-content-center align-items-center mr-5">
+                    <img src="/assets/images/logo-html.jpg" class="d-block" alt="hero-1" />
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div style="height: 350px" class="d-flex justify-content-center align-items-center mr-5">
+                    <img src="/assets/images/logo-UPH.png" class="d-block" alt="hero-2" />
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div style="height: 350px" class="d-flex justify-content-center align-items-center mr-5">
+                    <img src="/assets/images/mockup-hp.jpg" class="d-block" alt="hero-3" />
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="custom-shape-divider-bottom-1732286998">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" data-aos="fade-down" class="section about">
+      <div data-aos="fade-down" class="about-content">
+        <div class="text-box">
+          <h2>About Me</h2>
+          <p>Hi, I'm Theo, a web developer with a love for aviation, cars, and tech. I specialize in creating interactive and user-friendly websites. When im not coding, usually i go to aviation, cars, or tech shows.</p>
+        </div>
+        <div data-aos="fade-up" class="about-photo">
+          <img src="/assets/images/foto-pribadi.jpg" alt="About theo" width="auto" height="300" />
+        </div>
+      </div>
+      <div class="custom-shape-divider-top-1732287093">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+      <h2 class="section-title fade-in">Education</h2>
+
+      <div class="education-item">
+        <div data-aos="fade-right" class="education-logo">
+          <img src="/assets/images/logo-SDH.png" alt="Logo SMA" />
+        </div>
+        <div data-aos="fade-up-right" class="education-description">
+          <h3>Sekolah Dian Harapan</h3>
+          <p>A place where my academic journey began, fostering a strong foundation in learning, leadership, and character-building. It nurtured my passion for excellence and prepared me for future challenges.</p>
+        </div>
+      </div>
+
+      <div class="education-item">
+        <div data-aos="fade-up-left" class="education-description">
+          <h3>Universitas Pelita Harapan</h3>
+          <p>
+            A hub of inspiration and growth, where I expanded my knowledge and skills in Information System Degree. It provided opportunities to explore creativity, collaboration, and critical thinking, shaping me into a
+            driven and versatile professional.
+          </p>
+        </div>
+        <div data-aos="fade-left" class="education-logo-UPH">
+          <img src="/assets/images/logo-UPH.png" alt="Logo Universitas" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+      <h2 class="section-title fade-in">My Skills</h2>
+      <div id="carouselskills" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselskills" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselskills" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselskills" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div style="height: 300px" class="d-flex justify-content-center align-items-center mr-5">
+              <img style="max-width: 300px" src="/assets/images/logo-c-sharp.jpg" class="d-flex" alt="logo-c-sharp" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div style="height: 300px" class="d-flex justify-content-center align-items-center mr-5">
+              <img style="max-width: 300px" src="/assets/images/logp-css.jpg" class="d-flex" alt="logo-css" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div style="height: 300px" class="d-flex justify-content-center align-items-center mr-5">
+              <img style="max-width: 300px" src="/assets/images/logo-html.jpg" class="d-flex" alt="logo-html" />
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselskills" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselskills" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Hobby Section -->
+    <section id="hobby" class="section hobby">
+      <h2 class="section-title fade-in">My Hobby</h2>
+      <p class="fade-in">Cars photography and rare cars spotter is my joys outside of my work!</p>
+      <div class="hobby-images">
+        <img data-aos="fade-right" src="/assets/images/foto-mobil.jpg" alt="Hobby-Photo-1" class="hobby-photo" width="250px" />
+        <img data-aos="zoom-in-up" src="/assets/images/hobi-mobil.jpg" alt="Hobby-Photo-2" class="hobby-photo" width="250px" />
+        <img data-aos="fade-left" src="/assets/images/mobil-keren.jpg" alt="Hobby-Photo-3" class="hobby-photo" width="250px" />
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+      <div class="container-fluid">
+        <h2 class="section-title fade-in">Experience</h2>
+        <div class="experience-grid">
+          <div
+            style="background-image: url('/assets/images/logo-HMPSSIUPHLV.jpg'); background-size: cover; background-position: center; width: 300px; height: 200px"
+            data-aos="flip-up"
+            data-aos-delay="100"
+            class="experience-card fade-in"
+          >
+            <h3>Internal Divison Member</h3>
+            <p>2023 - 2024</p>
+          </div>
+          <div
+            style="background-image: url('/assets/images/sc-sdh.png'); background-size: cover; background-position: center; width: 300px; height: 200px"
+            data-aos="flip-down"
+            data-aos-delay="200"
+            class="experience-card fade-in"
+          >
+            <h3>SC SDH</h3>
+          </div>
+          <div
+            style="background-image: url('/assets/images/Hypermart.jpg'); background-size: cover; background-position: center; width: 300px; height: 200px"
+            data-aos="flip-up"
+            data-aos-delay="300"
+            class="experience-card fade-in"
+          >
+            <h3 style="color: black">Working as Intern In</h3>
+          </div>
+          <div
+            style="background-image: url('/assets/images/fotografi.jpg'); background-size: cover; background-position: center; width: 300px; height: 200px"
+            data-aos="flip-down"
+            data-aos-delay="400"
+            class="experience-card fade-in"
+          >
+            <h3 style="color: aliceblue">photography</h3>
+            <p>learning since 2020</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+      <h2 class="section-title fade-in">My Projects</h2>
+      <div class="project-gallery">
+        <div data-aos="flip-right" class="project-card zoom-in">
+          <img src="/assets/images/mockup-hp.jpg" alt="Project-1" width="250px" />
+          <h3>Bistro Bliss</h3>
+          <p>Seamless Cashier Apps</p>
+          <div id="project1-details" class="project-details">
+            <p>Providing Seamless Apps for coffeeshop so they can improve their efficiency more in managing order and stocks.</p>
+          </div>
+        </div>
+        <div data-aos="flip-right" data-aos-delay="100" class="project-card zoom-in">
+          <img src="/assets/images/mockup-pc.jpg" alt="Project-2" width="250px" />
+          <h3>TOP-Q</h3>
+          <p>E-ticket ordering websites</p>
+          <div id="project2-details" class="project-details">
+            <p>Providing simple and effective websites providing E-ticket ordering for any transportation available, so people can easily order and pay for their tickets.</p>
+          </div>
+        </div>
+        <div data-aos="flip-right" data-aos-delay="200" class="project-card zoom-in">
+          <img src="/assets/images/mockup-laptop.jpg" alt="Project-3" width="250px" />
+          <h3>CROCS</h3>
+          <p>Simple Cashier for minimarket</p>
+          <div id="project3-details" class="project-details">
+            <p>Providing simple and seamless cashier system with database for small shop like minimarket so they can manage their stock and selling more effective and efficient</p>
+          </div>
+        </div>
+        <div data-aos="flip-right" data-aos-delay="300" class="project-card zoom-in">
+          <img src="/assets/images/mockup-web.jpg" alt="Project-4" width="250px" />
+          <h3>Sandal Tutorial</h3>
+          <p>Tutorial Websites</p>
+          <div id="project4-details" class="project-details">
+            <p>Providing short tutorial on how to make curved sandal as one of the unique way to make some unique art</p>
+          </div>
+        </div>
+        <div data-aos="flip-right" data-aos-delay="400" class="project-card zoom-in">
+          <img src="/assets/images/project-web-pertama.png" alt="Project 5" width="250px" />
+          <h3>Aviation</h3>
+          <p>Aircraft History</p>
+          <div id="project5-details" class="project-details">
+            <p>Providing the history of Aviation world where alot of amazing things happen like the first aircraft to be ever flown upto the information in modern time</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="section cv">
+      <h2 data-aos="fade-right" class="section-title fade-in">Download My CV</h2>
+      <a href="/assets/CV-update.pdf" target="_blank" data-aos="fade-left" class="download-cv-button slide-up">Download CV</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <h2 data-aos="zoom-in" class="section-title fade-in">Contact Me</h2>
+      <p data-aos="zoom-in-up" class="fade-in">Feel free to reach out to me via email or social media!</p>
+      <ul class="contact-info fade-in">
+        <li>Email: <a href="mailto:theoniel3300@gmail.com">theoniel3300@gmail.com</a></li>
+        <li>Phone: +62 878 8634 1706</li>
+        <li>Instagram: <a href="https://instagram.com/throtle3032" target="_blank">@throtle3032</a></li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Portfolio Theo. All rights reserved.</p>
+    </footer>
+
+    <!-- Animations -->
+    <script src="/assets/js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>
